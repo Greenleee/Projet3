@@ -21,7 +21,11 @@ header{
     position: relative;
 }
 
-main .city{
+main{
+    padding: 0 7rem; 
+}
+
+ .city{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,9 +35,14 @@ main .city{
     padding: .5rem;
 }
 
-main .city i{
+
+ .city i{
     font-size: 1.5rem;
 }
+
+/* main .city{
+    padding: 0%;
+} */
 
 /* EXPLORER */
 .explorer{
@@ -71,4 +80,103 @@ main .city i{
     transform: scale(1.02);
     opacity: 0.9;
 
+}
+
+
+
+/* fonctonnement */
+.fonctionnement {
+    text-align: center;
+    margin-top: 35px
+}
+
+.block_fonctionnement {
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.fonc{
+    margin-bottom: 2rem;
+}
+
+.block-titre{
+    margin-left: 15px;
+}
+
+.regle { 
+    display: flex;
+    padding: 15px 0px 15px 0px;
+    box-shadow: 3px 3px 10px rgb(0 0 0 / 19%);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: 22px;
+    align-items: center;
+    gap: 25px;
+    background-color: #f6f6f6;
+    font-weight: bolder;
+    width: 20rem;
+}
+
+.regle .fas {
+    font-size:22px
+}
+
+.regle:hover {
+ background-color: #f5edff;
+}
+
+.regle:hover .icone_regle {
+    color: #9356DC;
+}
+
+.regle .numero {
+        padding: 3px 9px;
+        border-radius: 50px;
+        color: white;
+        background-color: #9356dc;
+        font-weight: normal;
+        margin-left: -25px;
+        margin-top: -5px;
+        font-size: 20px;
+}
+
+.iconef {
+    color: grey;
+    margin-left: -5px;
+}
+
+
+.regle_parent{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.menus{
+    background-color: #f6f6f6;
+}
+
+.menus h2{
+    margin-bottom: 2rem;
+}
+
+.menus__cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+    
+}
+
+.card{
+    border: 1px solid black;
+    height: 4rem;
+    flex-grow: 1;
+    min-width: 30rem;
 }
